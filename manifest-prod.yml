@@ -1,7 +1,8 @@
 ---
 applications:
 - name: api-gov-au-graph
-  memory: 1G
+  memory: 768M
+  disk_quota: 512M
   buildpacks:
   - apt_buildpack
   - java_buildpack
