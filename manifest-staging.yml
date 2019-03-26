@@ -1,6 +1,6 @@
 ---
 applications:
-- name: api-gov-au-graph
+- name: staging-api-gov-au-graph
   memory: 768M 
   disk_quota: 512M
   buildpacks:
