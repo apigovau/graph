@@ -3,8 +3,8 @@ jobs:
   build:
     branches:
       only:
-        - master
-        - /rc-.*/
+        - staging
+        - prod
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
